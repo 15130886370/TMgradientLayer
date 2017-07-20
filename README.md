@@ -1,6 +1,6 @@
 # TMgradientLayer
 渐变色动画
-####最近在搞这样一个动画：
+最近在搞这样一个动画：
 
 ![动效.gif](http://upload-images.jianshu.io/upload_images/1526313-8f0136e72143801b.gif?imageMogr2/auto-orient/strip)
 > 介绍：
@@ -25,7 +25,7 @@ class LeftGlassesImage: UIImageView {
 }
 ```
 
-```
+```Swift
 //然后在LeftGlassesImage中定义一个渐变色layer实例
     let gradientLayer: CAGradientLayer = {
         let gradientLayer = CAGradientLayer()
