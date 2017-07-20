@@ -101,4 +101,4 @@ class LeftGlassesImage: UIImageView {
     }
 
 ```
-[http://www.jianshu.com/p/8413ccc74a32](这里有对画渐变色圆弧的讲解)
+[这里有对画渐变色圆弧的讲解](http://www.jianshu.com/p/8413ccc74a32)
