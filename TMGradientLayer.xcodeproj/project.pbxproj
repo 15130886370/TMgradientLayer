@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90D0DA0C1F206862005000DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0DA0B1F206862005000DB /* AppDelegate.swift */; };
+		90D0DA0E1F206862005000DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0DA0D1F206862005000DB /* ViewController.swift */; };
+		90D0DA111F206862005000DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D0DA0F1F206862005000DB /* Main.storyboard */; };
+		90D0DA131F206862005000DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D0DA121F206862005000DB /* Assets.xcassets */; };
+		90D0DA161F206862005000DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D0DA141F206862005000DB /* LaunchScreen.storyboard */; };
+		90D0DA211F206862005000DB /* TMGradientLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0DA201F206862005000DB /* TMGradientLayerTests.swift */; };
+		90D0DA2C1F206862005000DB /* TMGradientLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0DA2B1F206862005000DB /* TMGradientLayerUITests.swift */; };
+		90D0DA3A1F20691D005000DB /* LeftGlassesImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0DA391F20691D005000DB /* LeftGlassesImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90D0DA1D1F206862005000DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D0DA001F206862005000DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D0DA071F206862005000DB;
+			remoteInfo = TMGradientLayer;
+		};
+		90D0DA281F206862005000DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D0DA001F206862005000DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D0DA071F206862005000DB;
+			remoteInfo = TMGradientLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90D0DA081F206862005000DB /* TMGradientLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMGradientLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D0DA0B1F206862005000DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90D0DA0D1F206862005000DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90D0DA101F206862005000DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90D0DA121F206862005000DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90D0DA151F206862005000DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90D0DA171F206862005000DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D0DA1C1F206862005000DB /* TMGradientLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMGradientLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D0DA201F206862005000DB /* TMGradientLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMGradientLayerTests.swift; sourceTree = "<group>"; };
+		90D0DA221F206862005000DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D0DA271F206862005000DB /* TMGradientLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMGradientLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D0DA2B1F206862005000DB /* TMGradientLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMGradientLayerUITests.swift; sourceTree = "<group>"; };
+		90D0DA2D1F206862005000DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D0DA391F20691D005000DB /* LeftGlassesImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftGlassesImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90D0DA051F206862005000DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D0DA191F206862005000DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D0DA241F206862005000DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90D0D9FF1F206862005000DB = {
+			isa = PBXGroup;
+			children = (
+				90D0DA0A1F206862005000DB /* TMGradientLayer */,
+				90D0DA1F1F206862005000DB /* TMGradientLayerTests */,
+				90D0DA2A1F206862005000DB /* TMGradientLayerUITests */,
+				90D0DA091F206862005000DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90D0DA091F206862005000DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90D0DA081F206862005000DB /* TMGradientLayer.app */,
+				90D0DA1C1F206862005000DB /* TMGradientLayerTests.xctest */,
+				90D0DA271F206862005000DB /* TMGradientLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90D0DA0A1F206862005000DB /* TMGradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				90D0DA0B1F206862005000DB /* AppDelegate.swift */,
+				90D0DA0D1F206862005000DB /* ViewController.swift */,
+				90D0DA391F20691D005000DB /* LeftGlassesImage.swift */,
+				90D0DA0F1F206862005000DB /* Main.storyboard */,
+				90D0DA121F206862005000DB /* Assets.xcassets */,
+				90D0DA141F206862005000DB /* LaunchScreen.storyboard */,
+				90D0DA171F206862005000DB /* Info.plist */,
+			);
+			path = TMGradientLayer;
+			sourceTree = "<group>";
+		};
+		90D0DA1F1F206862005000DB /* TMGradientLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				90D0DA201F206862005000DB /* TMGradientLayerTests.swift */,
+				90D0DA221F206862005000DB /* Info.plist */,
+			);
+			path = TMGradientLayerTests;
+			sourceTree = "<group>";
+		};
+		90D0DA2A1F206862005000DB /* TMGradientLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90D0DA2B1F206862005000DB /* TMGradientLayerUITests.swift */,
+				90D0DA2D1F206862005000DB /* Info.plist */,
+			);
+			path = TMGradientLayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90D0DA071F206862005000DB /* TMGradientLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D0DA301F206862005000DB /* Build configuration list for PBXNativeTarget "TMGradientLayer" */;
+			buildPhases = (
+				90D0DA041F206862005000DB /* Sources */,
+				90D0DA051F206862005000DB /* Frameworks */,
+				90D0DA061F206862005000DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMGradientLayer;
+			productName = TMGradientLayer;
+			productReference = 90D0DA081F206862005000DB /* TMGradientLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90D0DA1B1F206862005000DB /* TMGradientLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D0DA331F206862005000DB /* Build configuration list for PBXNativeTarget "TMGradientLayerTests" */;
+			buildPhases = (
+				90D0DA181F206862005000DB /* Sources */,
+				90D0DA191F206862005000DB /* Frameworks */,
+				90D0DA1A1F206862005000DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D0DA1E1F206862005000DB /* PBXTargetDependency */,
+			);
+			name = TMGradientLayerTests;
+			productName = TMGradientLayerTests;
+			productReference = 90D0DA1C1F206862005000DB /* TMGradientLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90D0DA261F206862005000DB /* TMGradientLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D0DA361F206862005000DB /* Build configuration list for PBXNativeTarget "TMGradientLayerUITests" */;
+			buildPhases = (
+				90D0DA231F206862005000DB /* Sources */,
+				90D0DA241F206862005000DB /* Frameworks */,
+				90D0DA251F206862005000DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D0DA291F206862005000DB /* PBXTargetDependency */,
+			);
+			name = TMGradientLayerUITests;
+			productName = TMGradientLayerUITests;
+			productReference = 90D0DA271F206862005000DB /* TMGradientLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90D0DA001F206862005000DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ittmomProject;
+				TargetAttributes = {
+					90D0DA071F206862005000DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9WE5KHEY75;
+						ProvisioningStyle = Automatic;
+					};
+					90D0DA1B1F206862005000DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9WE5KHEY75;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90D0DA071F206862005000DB;
+					};
+					90D0DA261F206862005000DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9WE5KHEY75;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90D0DA071F206862005000DB;
+					};
+				};
+			};
+			buildConfigurationList = 90D0DA031F206862005000DB /* Build configuration list for PBXProject "TMGradientLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90D0D9FF1F206862005000DB;
+			productRefGroup = 90D0DA091F206862005000DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90D0DA071F206862005000DB /* TMGradientLayer */,
+				90D0DA1B1F206862005000DB /* TMGradientLayerTests */,
+				90D0DA261F206862005000DB /* TMGradientLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90D0DA061F206862005000DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D0DA161F206862005000DB /* LaunchScreen.storyboard in Resources */,
+				90D0DA131F206862005000DB /* Assets.xcassets in Resources */,
+				90D0DA111F206862005000DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D0DA1A1F206862005000DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D0DA251F206862005000DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90D0DA041F206862005000DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D0DA0E1F206862005000DB /* ViewController.swift in Sources */,
+				90D0DA0C1F206862005000DB /* AppDelegate.swift in Sources */,
+				90D0DA3A1F20691D005000DB /* LeftGlassesImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D0DA181F206862005000DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D0DA211F206862005000DB /* TMGradientLayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D0DA231F206862005000DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D0DA2C1F206862005000DB /* TMGradientLayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90D0DA1E1F206862005000DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D0DA071F206862005000DB /* TMGradientLayer */;
+			targetProxy = 90D0DA1D1F206862005000DB /* PBXContainerItemProxy */;
+		};
+		90D0DA291F206862005000DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D0DA071F206862005000DB /* TMGradientLayer */;
+			targetProxy = 90D0DA281F206862005000DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90D0DA0F1F206862005000DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D0DA101F206862005000DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90D0DA141F206862005000DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D0DA151F206862005000DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90D0DA2E1F206862005000DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90D0DA2F1F206862005000DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D0DA311F206862005000DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WE5KHEY75;
+				INFOPLIST_FILE = TMGradientLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.TMGradientLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90D0DA321F206862005000DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WE5KHEY75;
+				INFOPLIST_FILE = TMGradientLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.TMGradientLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90D0DA341F206862005000DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9WE5KHEY75;
+				INFOPLIST_FILE = TMGradientLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.TMGradientLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMGradientLayer.app/TMGradientLayer";
+			};
+			name = Debug;
+		};
+		90D0DA351F206862005000DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9WE5KHEY75;
+				INFOPLIST_FILE = TMGradientLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.TMGradientLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMGradientLayer.app/TMGradientLayer";
+			};
+			name = Release;
+		};
+		90D0DA371F206862005000DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9WE5KHEY75;
+				INFOPLIST_FILE = TMGradientLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.TMGradientLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TMGradientLayer;
+			};
+			name = Debug;
+		};
+		90D0DA381F206862005000DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9WE5KHEY75;
+				INFOPLIST_FILE = TMGradientLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.TMGradientLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TMGradientLayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90D0DA031F206862005000DB /* Build configuration list for PBXProject "TMGradientLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D0DA2E1F206862005000DB /* Debug */,
+				90D0DA2F1F206862005000DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D0DA301F206862005000DB /* Build configuration list for PBXNativeTarget "TMGradientLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D0DA311F206862005000DB /* Debug */,
+				90D0DA321F206862005000DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90D0DA331F206862005000DB /* Build configuration list for PBXNativeTarget "TMGradientLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D0DA341F206862005000DB /* Debug */,
+				90D0DA351F206862005000DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90D0DA361F206862005000DB /* Build configuration list for PBXNativeTarget "TMGradientLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D0DA371F206862005000DB /* Debug */,
+				90D0DA381F206862005000DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90D0DA001F206862005000DB /* Project object */;
+}

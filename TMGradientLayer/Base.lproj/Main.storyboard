@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TMGradientLayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kaTongPersonCoupon" translatesAutoresizingMaskIntoConstraints="NO" id="h94-5O-KvZ">
+                                <rect key="frame" x="105" y="227" width="164" height="212"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Osz-iP-qPp">
+                                <rect key="frame" x="138" y="309" width="98" height="21"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leftGlasses" translatesAutoresizingMaskIntoConstraints="NO" id="fSM-zd-bYa" customClass="LeftGlassesImage" customModule="TMGradientLayer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="21"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightGlasses" translatesAutoresizingMaskIntoConstraints="NO" id="QCX-PZ-ngl">
+                                        <rect key="frame" x="54" y="0.0" width="44" height="21"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Osz-iP-qPp" firstAttribute="centerX" secondItem="h94-5O-KvZ" secondAttribute="centerX" id="FV8-MD-Bqj"/>
+                            <constraint firstItem="h94-5O-KvZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IJK-aJ-4qs"/>
+                            <constraint firstItem="h94-5O-KvZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="R1c-Mx-PaH"/>
+                            <constraint firstItem="Osz-iP-qPp" firstAttribute="centerY" secondItem="h94-5O-KvZ" secondAttribute="centerY" multiplier="0.96" id="euC-c2-U0N"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kaTongPersonCoupon" width="164" height="212"/>
+        <image name="leftGlasses" width="44" height="21"/>
+        <image name="rightGlasses" width="44" height="21"/>
+    </resources>
+</document>
