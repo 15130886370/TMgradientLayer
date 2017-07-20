@@ -15,6 +15,7 @@
 		90D0DA211F206862005000DB /* TMGradientLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0DA201F206862005000DB /* TMGradientLayerTests.swift */; };
 		90D0DA2C1F206862005000DB /* TMGradientLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0DA2B1F206862005000DB /* TMGradientLayerUITests.swift */; };
 		90D0DA3A1F20691D005000DB /* LeftGlassesImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0DA391F20691D005000DB /* LeftGlassesImage.swift */; };
+		90D0DA3C1F207C6B005000DB /* Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D0DA3B1F207C6B005000DB /* Rect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		90D0DA2B1F206862005000DB /* TMGradientLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMGradientLayerUITests.swift; sourceTree = "<group>"; };
 		90D0DA2D1F206862005000DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90D0DA391F20691D005000DB /* LeftGlassesImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftGlassesImage.swift; sourceTree = "<group>"; };
+		90D0DA3B1F207C6B005000DB /* Rect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				90D0DA0B1F206862005000DB /* AppDelegate.swift */,
 				90D0DA0D1F206862005000DB /* ViewController.swift */,
 				90D0DA391F20691D005000DB /* LeftGlassesImage.swift */,
+				90D0DA3B1F207C6B005000DB /* Rect.swift */,
 				90D0DA0F1F206862005000DB /* Main.storyboard */,
 				90D0DA121F206862005000DB /* Assets.xcassets */,
 				90D0DA141F206862005000DB /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				90D0DA0E1F206862005000DB /* ViewController.swift in Sources */,
 				90D0DA0C1F206862005000DB /* AppDelegate.swift in Sources */,
 				90D0DA3A1F20691D005000DB /* LeftGlassesImage.swift in Sources */,
+				90D0DA3C1F207C6B005000DB /* Rect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +524,7 @@
 				90D0DA321F206862005000DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D0DA331F206862005000DB /* Build configuration list for PBXNativeTarget "TMGradientLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				90D0DA351F206862005000DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D0DA361F206862005000DB /* Build configuration list for PBXNativeTarget "TMGradientLayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				90D0DA381F206862005000DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

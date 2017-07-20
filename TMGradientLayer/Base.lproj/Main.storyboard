@@ -22,6 +22,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="layerCircle" translatesAutoresizingMaskIntoConstraints="NO" id="h10-ZB-gmn">
+                                <rect key="frame" x="64.5" y="210.5" width="246" height="246"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backCircle" translatesAutoresizingMaskIntoConstraints="NO" id="Z1k-CD-evD">
+                                <rect key="frame" x="59" y="205" width="257" height="257"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kaTongPersonCoupon" translatesAutoresizingMaskIntoConstraints="NO" id="h94-5O-KvZ">
                                 <rect key="frame" x="105" y="227" width="164" height="212"/>
                             </imageView>
@@ -37,14 +43,21 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.63921568630000003" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="h10-ZB-gmn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1gf-mc-PEN"/>
                             <constraint firstItem="Osz-iP-qPp" firstAttribute="centerX" secondItem="h94-5O-KvZ" secondAttribute="centerX" id="FV8-MD-Bqj"/>
                             <constraint firstItem="h94-5O-KvZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IJK-aJ-4qs"/>
+                            <constraint firstItem="Z1k-CD-evD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NQv-PZ-IOq"/>
                             <constraint firstItem="h94-5O-KvZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="R1c-Mx-PaH"/>
+                            <constraint firstItem="h10-ZB-gmn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Szo-UK-gyv"/>
+                            <constraint firstItem="Z1k-CD-evD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZAp-mO-gkg"/>
                             <constraint firstItem="Osz-iP-qPp" firstAttribute="centerY" secondItem="h94-5O-KvZ" secondAttribute="centerY" multiplier="0.96" id="euC-c2-U0N"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backCircle" destination="Z1k-CD-evD" id="CmZ-je-VTJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,7 +65,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backCircle" width="257" height="257"/>
         <image name="kaTongPersonCoupon" width="164" height="212"/>
+        <image name="layerCircle" width="246" height="246"/>
         <image name="leftGlasses" width="44" height="21"/>
         <image name="rightGlasses" width="44" height="21"/>
     </resources>
