@@ -80,6 +80,7 @@ class LeftGlassesImage: UIImageView {
         
     }
 ```
+
 剩下的就是添加动画了：
 
 ```Swift
@@ -100,3 +101,4 @@ class LeftGlassesImage: UIImageView {
     }
 
 ```
+[http://www.jianshu.com/p/8413ccc74a32](这里有对画渐变色圆弧的讲解)
